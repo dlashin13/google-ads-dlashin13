@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакти — Google Ads Pro</title>
+<meta name="description" content="Залиште заявку на аудит чи консультацію — форма зворотного зв'язку та замовлення дзвінка.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="logo"><span class="dot"></span>Google Ads Pro</a>
+    <div class="nav-links">
+      <a href="index.html">Головна</a>
+      <a href="services.html">Послуги</a>
+      <a href="index.html#cases">Кейси</a>
+      <a href="contact.html">Контакти</a>
+    </div>
+    <a href="contact.html" class="nav-cta">Замовити аудит</a>
+    <button class="nav-toggle" aria-label="Меню">☰</button>
+  </nav>
+  <div class="mobile-panel">
+    <a href="index.html">Головна</a>
+    <a href="services.html">Послуги</a>
+    <a href="index.html#cases">Кейси</a>
+    <a href="contact.html">Контакти</a>
+  </div>
+</header>
+
+<main>
+  <section class="container" style="padding-top:70px;">
+    <div class="eyebrow"><span class="bracket">[</span>контакти<span class="bracket">]</span></div>
+    <h1 style="font-size: clamp(28px,4vw,40px); max-width:22ch;">Залиште заявку — сконтактую протягом робочого дня</h1>
+    <p style="max-width:56ch; font-size:15.5px;">Заповніть форму нижче: опишіть коротко ситуацію та оберіть, як зручніше зв'язатись — я передзвоню або напишу.</p>
+  </section>
+
+  <section class="section container" style="padding-top:24px;">
+    <div class="grid-2" style="align-items:start;">
+
+      <div class="glass form-wrap">
+        <form id="contact-form">
+          <div class="field">
+            <label for="name">Ім'я</label>
+            <input type="text" id="name" name="name" required placeholder="Як до вас звертатись">
+          </div>
+          <div class="field">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+380 __ ___ __ __">
+          </div>
+          <div class="field">
+            <label for="message">Коротко про задачу</label>
+            <textarea id="message" name="message" placeholder="Ніша, поточний стан реклами, що хочете отримати"></textarea>
+          </div>
+          <div class="field">
+            <label>Як зручніше зв'язатись</label>
+            <div class="radio-row">
+              <label class="radio-opt"><input type="radio" name="contact_method" value="call" checked> Зателефонувати</label>
+              <label class="radio-opt"><input type="radio" name="contact_method" value="write"> Написати повідомлення</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Замовити дзвінок</button>
+          <p class="form-note">Натискаючи кнопку, ви погоджуєтесь на обробку контактних даних для зворотного зв'язку.</p>
+          <div class="form-success" id="form-success">Дякую! Заявку прийнято — зв'яжусь із вами найближчим часом.</div>
+        </form>
+      </div>
+
+      <div>
+        <div class="glass card" style="padding:28px; margin-bottom:20px;">
+          <h3 style="font-size:18px;">Що відбувається після заявки</h3>
+          <p style="font-size:14.5px;">Переглядаю запит, за потреби ставлю 1-2 уточнюючі питання та телефоную у зручний для вас час — зазвичай того ж або наступного робочого дня.</p>
+        </div>
+        <div class="glass card" style="padding:28px;">
+          <h3 style="font-size:18px;">Графік роботи</h3>
+          <p style="font-size:14.5px;">Пн–Пт, 9:00–18:00 (Київ). Заявки, залишені у вихідні, обробляю в понеділок вранці.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <div class="footer-links">
+      <a href="services.html">Послуги</a>
+      <a href="cases/jecksonloft.html">JecksonLOFT</a>
+      <a href="cases/textile.html">Текстиль</a>
+      <a href="contact.html">Контакти</a>
+    </div>
+    <div class="footer-copy">© 2026 · Google Ads Pro</div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
